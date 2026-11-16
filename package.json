@@ -1,0 +1,15 @@
+{
+  "name": "upload-checkpoints",
+  "version": "1.0.0",
+  "description": "Checkpoints and recovery for AI agents: save state, encrypt it on your side, anchor it onchain, restore after a crash.",
+  "type": "module",
+  "main": "upload.mjs",
+  "exports": "./upload.mjs",
+  "bin": { "upload": "upload.mjs" },
+  "files": ["upload.mjs"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "keywords": ["ai-agents", "agents", "checkpoints", "mcp", "merkle", "robinhood-chain"],
+  "homepage": "https://uploadexplains.xyz",
+  "license": "MIT"
+}
